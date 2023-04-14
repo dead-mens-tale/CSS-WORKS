@@ -1,0 +1,181 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	background-color: #000000;
+}
+
+.about, .contact{
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.green0 {
+	padding: 5px;
+	margin: 5px;
+	font-family: verdana;
+	font-size: 20px;
+	color: #16FF00;
+	text-align: center;
+}
+
+/*Specify colors using HSL values*/
+.red, .red2, .red3{
+	color: red;
+	font-size: 20px;
+	text-align: right;
+}
+.white{
+	color: #ffffff
+}
+
+
+
+/*CSS background-repeat*/
+.display, .display2{
+	display: inline-flex;
+	margin-top: 28px;
+	margin-left: 75px;
+
+}
+
+
+
+/*The border-width Property*/
+.test1 {
+	color: white;
+	font-size: 20px;
+}
+
+/*.test2{ 
+	color: #white;
+	font-size: 36px;
+}*/
+
+.test3{
+	color: #ffffff;
+	font-size: 36px;
+}
+
+.test4{
+	color: #ffffff;
+	font-size: 36px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+/*This property specifies the width of the four borders*/
+p.one {
+
+  border-style: solid;
+  border-width: 5px;
+  color: #ff0000;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+  color: #0000ff
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+  color: #3cb371;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+  color: #ee82ee;
+}
+
+p.five {
+  border-style: double;
+  border-width: 15px;
+  color: #ffa500;
+}
+
+p.six {
+  border-style: double;
+  border-width: thick;
+  color: #6a5acd;
+  font-size: 26px;
+}
+
+
+
+
+/*The border-color Property*/
+
+h2{
+	text-align: center;
+}
+
+
+p{
+	text-align: center;
+
+}
+
+
+
+/*The border-color Property*/
+p.one {
+  border-style: solid;
+  border-color: red;
+  text-align: center;
+  font-size: 26px;
+
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+  text-align: center;
+  font-size: 26px;
+} 
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+  text-align: center;
+  font-size: 26px;
+} 
+
+
+
+/*Individual Border Sides*/
+/*.sides{
+	color: #ffffff; 
+	font-size: 26px
+}
+*/
+
+
+/*HTML Table*/
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FORM*/
